@@ -164,29 +164,29 @@ Request body example:
   "productId": 1,
   "quantity": 2
 }
-
-
-
-
+```
 
 ## 📝 Notes
 
-* This project is intended for **learning and practice**.
-* Data persistence is local (file-based or local storage).
-* No authentication or payment gateway is implemented yet.
+- This project is intended for **learning and practice**.
+- Data persistence is local (file-based or local storage).
+- No authentication or payment gateway is implemented yet.
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add authentication (JWT)
-* Connect to a real database (MongoDB / MySQL)
-* Add product & order validation
-* Implement user roles (admin / user)
+- Add authentication (JWT)
+- Connect to a real database (MongoDB / MySQL)
+- Add product & order validation
+- Implement user roles (admin / user)
 
 ---
 
 ## 📄 License
 
 This project is open-source and available for educational use.
+
+```
+
 ```
