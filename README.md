@@ -12,11 +12,11 @@ This project provides a basic backend structure for an e-commerce application, i
 
 ## 🧱 Tech Stack
 
-* Node.js
-* Express.js
-* REST API
-* dotenv
-* nodemon
+- Node.js
+- Express.js
+- REST API
+- dotenv
+- nodemon
 
 ---
 
@@ -83,39 +83,90 @@ http://localhost:PORT
 
 This project exposes REST API endpoints that can be tested using tools like:
 
-* Postman
-* Thunder Client
-* cURL
+- Postman
+- Thunder Client
+- cURL
 
 > API endpoints can be found inside the `routes` directory.
 
 ---
+
 ---
 
 ## 📦 Products API
 
 Base URL:
 
-
 ### Get all products
+
 **GET** `/api/products`
 
 ### Get product by ID
+
 **GET** `/api/products/:id`
 
 ### Create a new product
+
 **POST** `/api/products`
 
 ### Update a product
+
 **PUT** `/api/products/:id`
 
 ### Delete a product
+
 **DELETE** `/api/products/:id`
 
 ### Get products by category
+
 **GET** `/api/products/category/:category`
 
 > ℹ️ This API currently uses in-memory mock data for development purposes.
+
+---
+
+## 📦 Categories API
+
+### Get all categories
+
+**GET** `/api/categories`
+
+### Create a new category
+
+**POST** `/api/categories`
+
+### Update a category
+
+**PUT** `/api/categories/:id`
+
+### Delete a category
+
+**DELETE** `/api/categories/:id`
+
+> ℹ️ This API uses in-memory mock data for development purposes.
+
+---
+
+## 🛒 Cart API
+
+### Get cart
+
+**GET** `/api/cart`
+
+### Add item to cart
+
+**POST** `/api/cart`
+
+Request body example:
+
+```json
+{
+  "productId": 1,
+  "quantity": 2
+}
+
+
+
 
 
 ## 📝 Notes
@@ -138,3 +189,4 @@ Base URL:
 ## 📄 License
 
 This project is open-source and available for educational use.
+```
