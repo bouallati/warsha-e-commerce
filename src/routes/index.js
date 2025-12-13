@@ -1,7 +1,7 @@
 import express from "express";
 import productRoutes from "./product.routes.js";
 import categoryRoutes from "./category.routes.js";
-import cartRoutes from "./cart.route.js";
+import cartRoutes from "./cart.routes.js";
 
 const routes = express.Router();
 
