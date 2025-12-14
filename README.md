@@ -166,9 +166,6 @@ Request body example:
 }
 ```
 
-
-
-
 ## 📝 Notes
 
 - This project is intended for **learning and practice**.
